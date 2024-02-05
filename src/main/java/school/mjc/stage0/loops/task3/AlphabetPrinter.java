@@ -4,7 +4,7 @@ public class AlphabetPrinter {
     public void printAlphabet() {
         char first = 'A';
         char last = 'Z';
-         for (char ch = startChar; ch <= endChar; ch++) {
+         for (char ch = first; ch <= last; ch++) {
             System.out.print(ch);
         }
     }
